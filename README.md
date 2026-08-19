@@ -1,58 +1,38 @@
-# CodeAlpha_Titanic_Sentiment_Analysis
-# Titanic Dataset – Exploratory Data Analysis
+# Customer Reviews – Sentiment Analysis
 
 ## Project Overview
 
 This project was completed as part of the CodeAlpha Data Analytics Internship.
 
-The objective of this project is to perform Exploratory Data Analysis (EDA) on the Titanic passenger dataset and identify meaningful patterns and insights from the data.
+The objective of this project is to analyze customer reviews and classify them as Positive, Negative, or Neutral.
 
 ## Tools and Technologies
 
 * Python
 * Jupyter Notebook
 * Pandas
-* NumPy
 * Matplotlib
 * Seaborn
-
-## Dataset
-
-The Titanic dataset contains information about passengers, including:
-
-* Passenger class
-* Gender
-* Age
-* Fare
-* Number of siblings/spouses
-* Number of parents/children
-* Survival status
-* Embarkation information
+* TextBlob
 
 ## Analysis Performed
 
-* Dataset structure analysis
-* Missing value detection
-* Data cleaning
-* Duplicate checking
-* Statistical analysis
-* Survival rate analysis
-* Gender-based survival analysis
-* Passenger class analysis
-* Age distribution analysis
-* Fare analysis
-* Travel status analysis
+* Created a customer reviews dataset
+* Analyzed sentiment polarity
+* Classified reviews as Positive, Negative, or Neutral
+* Calculated polarity scores
+* Visualized sentiment distribution
 
-## Key Findings
+## Key Insights
 
-The analysis identified differences in survival patterns based on gender and passenger class. The project also explored passenger age, fare distribution, and whether passengers travelled alone.
+The project demonstrates how sentiment analysis can be used to understand customer opinions and identify overall sentiment patterns from text data.
 
 ## Conclusion
 
-This project demonstrates how Exploratory Data Analysis can be used to clean a dataset, identify patterns, detect data issues, and generate useful insights using Python.
+This project demonstrates a basic application of Natural Language Processing and sentiment analysis using Python and TextBlob. It can be useful for analyzing customer reviews, social media comments, and other text-based feedback.
 
 ## Internship
 
 **CodeAlpha – Data Analytics Internship**
 
-Task: Exploratory Data Analysis
+Task: Sentiment Analysis
